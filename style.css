@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+    background-color: rgb(210, 202, 202);
+    
+}
+ 
+.main{
+    height: 550px;
+    width: 300px;
+    margin: 30px;
+    /* padding: 14px; */
+    /* background-image: linear-gradient(90deg,#f8cf25,#ecae37,#e3804B,#df6359,#ea5873,#cc3a7d); */
+    border-radius: 20px;
+    background-color: white;
+    overflow: hidden;
+    
+    
+}
+.top{
+    height: 8em;
+    padding: 10px;
+    align-items: center;
+    background-image: linear-gradient(90deg, #f8cf25, #ecae37, #e3804B, #df6359, #ea5873, #cc3a7d);
+    border-radius: 20px 20px 0 0;
+}
+.top .basic{
+    color: white;
+    padding: 15px 0px 10px 0px;
+    margin: 9px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 28px;
+    letter-spacing: 4px;
+    border-bottom: 3px  white solid;
+   
+}
+.top p{
+    text-align: center;
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: 400;
+    color: white;
+    
+}
+.top > *{
+    background-image: linear-gradient(90deg, #f8cf25, #ecae37, #e3804B, #df6359, #ea5873, #cc3a7d);
+}
+.middle-section{
+    padding: 14px;
+    background-color: white;
+   color: white;
+}
+
+.center{
+    color: black;
+    padding: 14px;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+   
+}
+.center span{
+    font-size: 4em;
+    background-color: inherit;
+}
+.center #price{
+    font-size: 7em;    
+    background-color: white;
+    border-bottom: 3px #89918951 solid;
+}
+
+
+.end-container{
+   
+    display: flex;
+    justify-content: end;
+    gap: 3px;
+}
+.end-container img{
+    background-color: white;
+    width: 1em;
+    height: 1em;
+    margin-right: 5px;
+}
+.list{
+    background-color: white;
+    margin-top: 10px;
+    font-size: 13px;
+    list-style-type: none;
+    text-align: start;
+    color: #899189cb;
+
+}
+.list li{
+    background-color: white;
+    margin-bottom: 13px;
+}
+.btn-container{
+    margin-top: 30px;
+    position: relative;
+    
+}
+.btn{
+    border: none;
+    width: 120px;
+    height: 40px;
+    background-image: linear-gradient(120deg, #f8cf25, #ecae37, #e3804B, #df6359, #ea5873, #cc3a7d);
+    padding: 10px;
+    color: white;
+    font-weight: 600;
+    word-spacing: 2px;
+    border-radius: 14px;
+    position: absolute;
+    top: 40%;
+    left: 26%;
+    transition: 0.3s;
+}
+ .btn:hover{
+    transform: scale(120%);
+ }
+ .css-cards{
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    
+ }
+ .card-2{
+    background-image: linear-gradient(90deg, #3db5da, #3682b6, #385b99,#35528e,#334d89);
+ }
+ .card-3{
+    background-image: linear-gradient(90deg, #a2d19c,#81c09e,#6cb8a4,#57b3a9,#42aeb4,#37a2b8,#2592ce);
+ }
+ 
+@media (max-width:600px){
+     .css-cards{
+       display: flex;
+        background-color: #df6359;
+        flex-direction: column;
+        
+     }
+}
+
+
+
+ /* Took me 6 to 7 hours to do this, i know that coding-style is not good will work on it */
+
+
